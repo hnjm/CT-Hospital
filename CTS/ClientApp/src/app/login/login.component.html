@@ -1,0 +1,63 @@
+<div class="row">
+
+
+    <div class="col-md-12">
+        <div class="loginbackground">
+            <div class="logintext" style="padding-top:200px;">
+                Login
+            </div>
+            <br>
+            <form [formGroup]="loginForm" (submit)="Login()">
+                <div class="logintext">
+                    <div class="inputtext">
+                        <label for="username"> User Name </label>
+                        <br>
+                        <input type="text" name="username" id="username" formControlName="username">
+                    </div>
+
+                    <div class="inputtext">
+                        <label for="password"> Password </label>
+                        <br>
+                        <input type="text" name="password" id="password" formControlName="password">
+                    </div>
+                    <br>
+                    <div class="inputtext">
+                        <button class="btn btn-primary"> Submit </button>
+                        <button class="btn btn-primary" [routerLink]="['/register']"> Register </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <!-- =========================================== -->
+    <!-- <div class="col-md-6">
+
+        <div class="registerbackground">
+            <div class="logintext" style="padding-top:200px;">
+                Register
+            </div>
+            <br>
+
+            <form [formGroup]="loginForm" (submit)="Register()">
+                <div class="logintext">
+                    <div class="inputtext">
+                        <label for="userid"> User Name </label>
+                        <br>
+                        <input type="text" name="userid" id="userid" formControlName="userid">
+                    </div>
+
+                    <div class="inputtext">
+                        <label for="password"> Password </label>
+                        <br>
+                        <input type="text" name="password" id="password" formControlName="password">
+                    </div>
+                    <br>
+                    <div class="inputtext">
+                        <button class="btn btn-primary" (click)="Register()"> Submit </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+    </div> -->
+</div>

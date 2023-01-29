@@ -1,0 +1,54 @@
+.login {
+background-color : white;
+height : 100px;
+text-align: center;
+font-size: xx-large;
+font-weight: bolder;
+text-decoration-color: white;
+}
+
+.loginbackground {
+    width: 100%;
+    height: 100vh ;
+    background-color: #89CFF0;
+}
+
+.registerbackground {
+    width: 100%;
+    height: 100vh ;
+    background-color: #89f08c;
+}
+
+.logintext {
+    text-shadow: 10px;
+    display: inline-flexbox;
+    align-items: center;
+    text-align-last: center;
+    align-content: center;
+    /* padding-top: 200px; */
+    font-weight: bolder;
+    font-size: 50px;
+    color: blue;
+    
+}
+
+.inputtext {
+    width: 100%;
+    /* background-color: red; */
+    align-items: center;
+    font-size: 25px;
+    color:blueviolet;
+    
+}
+
+input {
+    font-size: 20px;
+    font-display: flex;
+}
+
+.col-md-6 {
+    padding : 0px;
+}
+.btn {
+    margin: 0px 10px;
+}
